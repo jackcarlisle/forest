@@ -1,0 +1,27 @@
+{
+  "name": "forest",
+  "version": "1.0.0",
+  "description": "About me",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape './test/**/*.test.js'",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackcarlisle/forest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackcarlisle/forest/issues"
+  },
+  "homepage": "https://github.com/jackcarlisle/forest#readme",
+  "dependencies": {
+    "hapi": "^16.0.1",
+    "inert": "^4.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}

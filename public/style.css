@@ -1,0 +1,107 @@
+body {
+  background-color: #FF6347;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding-left: 1.25em;
+  border-radius: 200px;
+  font-size: 2em;
+  padding-right: 0.25em;
+  padding-bottom: 0.1em;
+  -webkit-transition: background 0.75s linear;
+  -moz-transition: background 0.75s linear;
+  -ms-transition: background 0.75s linear;
+  -o-transition: background 0.75s linear;
+  transition: background 0.75s linear;
+}
+
+.buttonIconContainer:hover .button {
+  background-color: #ffffff;
+  color: #FF6347;
+}
+
+.buttonIconContainer:hover .icon {
+  background-color: #FF6347;
+  border: 3px solid #FF6347;
+}
+
+.buttonIconContainer:hover .linkedInIcon {
+  background-color: #FF6347;
+  border: 3px solid #FF6347;
+}
+
+.buttonIconContainer {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.geo {
+  width: 4em;
+}
+
+.icon {
+  width: 1.5em;
+  position: absolute;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.linkedInIcon {
+  width: 1.5em;
+  position: absolute;
+  border: 3px solid #ffffff;
+  top: 0.5em;
+  left: 0.5em;
+  border-radius: 100%;
+}
+
+.phone {
+  position: absolute;
+  width: 28em;
+  left: 13.5em;
+}
+
+.textContainer {
+  top: 7em;
+  position: absolute;
+  left: 22em;
+}
+
+.tick {
+  width: 3em;
+  position: absolute;
+  left: -4.5em;
+  top: -0.8em;
+}
+
+.tickContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.tickText {
+  position: absolute;
+  width: 6em;
+  text-align: left;
+  left: -1.5em;
+}
+
+@media (max-width: 400px) {
+  .phone {
+    display: none;
+  }
+}
