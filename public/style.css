@@ -51,6 +51,27 @@ body {
   margin-bottom: 2em;
 }
 
+.emailLink {
+  border: 1px solid #ffffff;
+  border-radius: 200px;
+  font-size: 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.2em;
+  -webkit-transition: background 0.75s linear;
+  -moz-transition: background 0.75s linear;
+  -ms-transition: background 0.75s linear;
+  -o-transition: background 0.75s linear;
+  transition: background 0.75s linear;
+}
+
+.emailLink:hover {
+  background-color: #ffffff;
+  color: #FF6347;
+}
+
 .geo {
   width: 4em;
 }
@@ -83,8 +104,11 @@ body {
 }
 
 .quoteContainer {
+  margin-top: 1em;
   display: inline-block;
-  float: left;
+  border: 1px solid #ffffff;
+  padding: 2.5em;
+  border-radius: 30px;
 }
 
 .textContainer {
