@@ -42,6 +42,15 @@ body {
   margin-bottom: 1em;
 }
 
+.container {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
+  margin-bottom: 2em;
+}
+
 .geo {
   width: 4em;
 }
@@ -70,15 +79,18 @@ body {
 }
 
 .phone {
-  position: absolute;
   width: 28em;
-  left: 13.5em;
+}
+
+.quoteContainer {
+  display: inline-block;
+  float: left;
 }
 
 .textContainer {
-  top: 7em;
+  top: 5.5em;
   position: absolute;
-  left: 22em;
+  right: 8.5em;
 }
 
 .tick {
@@ -100,8 +112,25 @@ body {
   left: -1.5em;
 }
 
+.wrapper {
+  text-align: center;
+  position: relative;
+}
+
 @media (max-width: 400px) {
+  .container {
+    display: block;
+    float: none;
+  }
   .phone {
     display: none;
+  }
+  .quoteContainer {
+    float: none;
+  }
+  .textContainer {
+    position: relative;
+    right: auto;
+    top: auto;
   }
 }
