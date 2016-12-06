@@ -10,9 +10,9 @@
       <div class="container">
         <img class="phone" src="https://cloud.githubusercontent.com/assets/12450298/20869746/2b25dd04-ba71-11e6-97c3-0eaafddf12a7.png" />
         <div class="textContainer">
-          <h1>jack carlisle</h1>
+          <div class="name">jack carlisle</div>
           <img src="./geo.svg" class="geo" />
-          <h3>software development</h3>
+          <div class="subtitle">software development</div>
           <a class="link" href="https://github.com/jackcarlisle">
             <div class="buttonIconContainer">
               <img class="icon" src="./github.svg" />
@@ -53,16 +53,27 @@
               <div class="tickText">tailored</div>
             </div>
           </div>
+          <a class="link" href="tel:07590375510">
+            <div class="contactLink">07590375510</div>
+          </a>
+          <a class="link" href="mailto:jackacarlisle@gmail.com">
+            <div class="contactLink">jackacarlisle@gmail.com</div>
+          </a>
         </div>
       </div>
       <div class="quoteContainer">
-        <div>are you a startup that needs to get an idea off the ground?</div>
-        <div>i can help.</div>
+        <h1>solving real world problems with digital solutions</h1>
         <br />
-        <div>let's talk</div>
-        <a class="link" href="mailto:jackacarlisle@gmail.com">
-          <div class="emailLink">email me</div>
-        </a>
+        <div class="bigText">let's talk</div>
+        <form method="POST" action="/submit" id="submitDetails">
+          <div class="label">name:</div>
+          <input class="input" type="text" name="name" />
+          <div class="label">email:</div>
+          <input class="input" type="email" name="email" />
+          <div class="label">message:</div>
+          <textarea class="textarea" name="message" form="submitDetails"></textarea>
+          <input type="submit" class="emailLink" value="send" />
+        </form>
       </div>
     </div>
   </body>

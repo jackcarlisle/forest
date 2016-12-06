@@ -5,6 +5,10 @@ body {
   color: #ffffff;
 }
 
+.bigText {
+  font-size: 4em;
+}
+
 .button {
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -42,6 +46,12 @@ body {
   margin-bottom: 1em;
 }
 
+.contactLink {
+  border: 1px dotted #ffffff;
+  border-radius: 500px;
+  margin-bottom: 0.5em;
+}
+
 .container {
   position: relative;
   display: inline-block;
@@ -51,14 +61,24 @@ body {
   margin-bottom: 2em;
 }
 
+.emailIcon {
+  position: absolute;
+  top: 0.5em;
+  background-color: #FF6347;
+  padding: 0.3em;
+}
+
 .emailLink {
+  font-family: 'Dosis', sans-serif;
   border: 1px solid #ffffff;
   border-radius: 200px;
-  font-size: 1.5em;
+  font-size: 2em;
   display: inline-block;
   cursor: pointer;
   padding-left: 1em;
   padding-right: 1em;
+  background-color: #FF6347;
+  color: #ffffff;
   padding-bottom: 0.2em;
   -webkit-transition: background 0.75s linear;
   -moz-transition: background 0.75s linear;
@@ -72,8 +92,13 @@ body {
   color: #FF6347;
 }
 
+.emailLink:hover .emailIcon {
+  background-color: #FF6347;
+}
+
 .geo {
   width: 4em;
+  margin-bottom: 1em;
 }
 
 .icon {
@@ -83,6 +108,24 @@ body {
   border-radius: 100%;
   top: 0.5em;
   left: 0.5em;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  height: 2em;
+  padding: 0.5em;
+  font-size: 1em;
+  color: #FF6347;
+  outline: none;
+  margin-bottom: 1em;
+  width: 27em;
+}
+
+.label {
+  margin-bottom: 0.2em;
+  font-size: 1.5em;
+  text-align: left;
 }
 
 .link {
@@ -99,22 +142,47 @@ body {
   border-radius: 100%;
 }
 
+.name {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
 .phone {
-  width: 28em;
+  width: 35em;
 }
 
 .quoteContainer {
-  margin-top: 1em;
+  margin-top: 3.3em;
   display: inline-block;
   border: 1px solid #ffffff;
   padding: 2.5em;
   border-radius: 30px;
+  float: left;
+  max-width: 28em;
+}
+
+.subtitle {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.textarea {
+  border: none;
+  resize: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+  color: #FF6347;
+  height: 5em;
+  width: 27em;
+  outline: none;
+  margin-bottom: 1em;
 }
 
 .textContainer {
-  top: 5.5em;
+  top: 8.5em;
   position: absolute;
-  right: 8.5em;
+  right: 8em;
 }
 
 .tick {
@@ -136,9 +204,15 @@ body {
   left: -1.5em;
 }
 
+.tickWrapper {
+  margin-bottom: 3em;
+}
+
 .wrapper {
   text-align: center;
   position: relative;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 @media (max-width: 400px) {
